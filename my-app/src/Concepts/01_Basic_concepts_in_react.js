@@ -37,7 +37,7 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-
+import JSX_Tutorial from './02_JSX_Concept';
 
 function Basic() {
     return(
@@ -52,6 +52,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <>
         <Basic />
+        <JSX_Tutorial />
     </>
 );
 export default Basic;
